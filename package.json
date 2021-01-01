@@ -1,0 +1,32 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "learning and implementing jest unit testing on functions and API's call",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skalia0594/jest-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "jest",
+    "node-test",
+    "api-test",
+    "react-test"
+  ],
+  "author": "Shubham Kalia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skalia0594/jest-testing/issues"
+  },
+  "homepage": "https://github.com/skalia0594/jest-testing#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
