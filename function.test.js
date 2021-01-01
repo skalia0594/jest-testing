@@ -32,4 +32,18 @@ test('API should return name "Leanne Graham"', async () => {
     expect.assertions(1);       //number of api call we make in actual function
     const data = await functions.fetchUser();
     expect(data.name).toEqual("Leanne Graham");
-})
+});
+
+const nameCheck = () => console.log('Checking names.....');
+describe('checking names', () => {
+    beforeEach(() => nameCheck());
+
+    test('should particular functions before 1', () => {
+        expect('shubham').toBe('shubham');
+    });
+    test('should particular functions before 2', () => {
+        expect('kalia').toBe('kalia');
+    })
+    
+    
+});
